@@ -72,4 +72,34 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TnKV4K4XEeOPypkmQmWLKQ" value="*"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xepWQLB4EeOCM67Kj3Vh7w" name="utilisateursToOffres" memberEnd="_xep9ULB4EeOCM67Kj3Vh7w _xeqkYrB4EeOCM67Kj3Vh7w" navigableOwnedEnd="_xeqkYrB4EeOCM67Kj3Vh7w">
+    <ownedEnd xmi:id="_xep9ULB4EeOCM67Kj3Vh7w" name="utilisateurs" type="_vzjbUKGvEeOyWNy6QXtmxQ" aggregation="composite" association="_xepWQLB4EeOCM67Kj3Vh7w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xeqkYLB4EeOCM67Kj3Vh7w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xeqkYbB4EeOCM67Kj3Vh7w" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_xeqkYrB4EeOCM67Kj3Vh7w" name="offres" type="_xyT8IKGxEeOyWNy6QXtmxQ" association="_xepWQLB4EeOCM67Kj3Vh7w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xerLcLB4EeOCM67Kj3Vh7w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xerLcbB4EeOCM67Kj3Vh7w" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1XqPMLB4EeOCM67Kj3Vh7w" name="utilisateursToEncheres" memberEnd="_1XqPMbB4EeOCM67Kj3Vh7w _1Xq2QrB4EeOCM67Kj3Vh7w" navigableOwnedEnd="_1Xq2QrB4EeOCM67Kj3Vh7w">
+    <ownedEnd xmi:id="_1XqPMbB4EeOCM67Kj3Vh7w" name="utilisateurs" type="_vzjbUKGvEeOyWNy6QXtmxQ" aggregation="composite" association="_1XqPMLB4EeOCM67Kj3Vh7w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1Xq2QLB4EeOCM67Kj3Vh7w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1Xq2QbB4EeOCM67Kj3Vh7w" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_1Xq2QrB4EeOCM67Kj3Vh7w" name="encheres" type="_SkdD4KGvEeOyWNy6QXtmxQ" association="_1XqPMLB4EeOCM67Kj3Vh7w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1XrdULB4EeOCM67Kj3Vh7w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1XrdUbB4EeOCM67Kj3Vh7w" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_G4u5QLB5EeOCM67Kj3Vh7w" name="objetsToEncheres" memberEnd="_G4u5QbB5EeOCM67Kj3Vh7w _G4vgUrB5EeOCM67Kj3Vh7w" navigableOwnedEnd="_G4vgUrB5EeOCM67Kj3Vh7w">
+    <ownedEnd xmi:id="_G4u5QbB5EeOCM67Kj3Vh7w" name="objets" type="_QQ1JgKGxEeOyWNy6QXtmxQ" aggregation="composite" association="_G4u5QLB5EeOCM67Kj3Vh7w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_G4vgULB5EeOCM67Kj3Vh7w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_G4vgUbB5EeOCM67Kj3Vh7w" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_G4vgUrB5EeOCM67Kj3Vh7w" name="encheres" type="_SkdD4KGvEeOyWNy6QXtmxQ" association="_G4u5QLB5EeOCM67Kj3Vh7w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_G4wHYLB5EeOCM67Kj3Vh7w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_G4wHYbB5EeOCM67Kj3Vh7w" value="*"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>
